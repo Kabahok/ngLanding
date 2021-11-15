@@ -1,0 +1,246 @@
+* {
+  font-family: "Mulish", sans-serif;
+}
+
+
+.container {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.img {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+body {
+  background: #012651;
+  padding-top: 40px;
+}
+
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__logo {
+  font-weight: bold;
+  font-size: 24px;
+  color: #FEA05D;
+}
+.header__nav-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__nav-item {
+  margin-right: 40px;
+}
+.header__nav-item:last-child {
+  margin-right: 0;
+}
+.header__nav-link {
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 0.011em;
+  color: #EFF3FF;
+  text-decoration: none;
+}
+.header__nav-link:hover {
+  text-decoration: none;
+  color: #EFF3FF;
+}
+.header__reg {
+  display: flex;
+  justify-content: space-between;
+  justify-content: center;
+}
+.header__btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #EFF3FF;
+  text-decoration: none;
+}
+.header__btn:hover {
+  text-decoration: none;
+}
+.header__btnup {
+  width: 111px;
+  height: 48px;
+  background: #FFA161;
+  border-radius: 6px;
+  color: #933A14;
+  margin-left: 40px;
+}
+
+.footer {
+  min-height: 370px;
+}
+.footer__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.footer__info {
+  max-width: 360px;
+}
+.footer__info-logo {
+  font-weight: bold;
+  font-size: 24px;
+  color: #FEA05D;
+}
+.footer__info-descr {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 32px;
+  color: #EFF3FF;
+  margin-top: 15px;
+}
+.footer__links {
+  display: flex;
+  width: 60%;
+  justify-content: space-around;
+}
+.footer__links-title {
+  font-weight: bold;
+  font-size: 16px;
+  color: #EFF3FF;
+}
+.footer__links-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.footer__links-item {
+  margin-top: 24px;
+}
+.footer__links-item a {
+  font-weight: normal;
+  font-size: 14px;
+  color: #EFF3FF;
+  text-decoration: none;
+}
+.footer__links-item a:hover {
+  text-decoration: none;
+}
+.footer__descr-title {
+  font-weight: bold;
+  font-size: 16px;
+  color: #EFF3FF;
+}
+.footer__descr-text {
+  font-weight: normal;
+  font-size: 14px;
+  color: #EFF3FF;
+  margin-top: 20px;
+}
+
+.main {
+  min-height: 575px;
+  padding-top: 30px;
+}
+.main__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main__arr {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.main__info {
+  position: relative;
+}
+.main__info-subtitle {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FEA05D;
+}
+.main__info-title {
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 80px;
+  color: #EFF3FF;
+  margin-top: 20px;
+}
+.main__info-descr {
+  font-weight: normal;
+  font-size: 16px;
+  color: #EFF3FF;
+  margin-top: 25px;
+}
+.main__info-buttons {
+  margin-top: 48px;
+  display: flex;
+  align-items: center;
+}
+.main__info-get {
+  width: 139px;
+  height: 48px;
+  background: #FFA161;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 16px;
+  color: #933A14;
+  margin-right: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main__info-watch {
+  width: 150px;
+  height: 48px;
+  border: 1px solid #EFF3FF;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 16px;
+  color: #EFF3FF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.for__title {
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 60px;
+  color: #EFF3FF;
+  max-width: 480px;
+}
+.for__subtitle {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 1.1px;
+  color: #FFA161;
+}
+.for__descr {
+  font-weight: normal;
+  font-size: 16px;
+  color: #EFF3FF;
+}
+.for__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.for__item {
+  width: 317px;
+  height: 348px;
+  background: rgba(61, 137, 225, 0.16);
+  border-radius: 12px;
+}
+/*# sourceMappingURL=main.css.map */
